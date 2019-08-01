@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("/img/drums-back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.key-holder{
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+margin-top: 400px;
+}
+.key{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 8%;
+    margin: 0 5px;
+    padding: 5px 0px;
+    border: thick solid #ffffff;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #0000005a;
+}
+kbd{
+    font-size: 20px;
+    font-weight: bold;
+}
