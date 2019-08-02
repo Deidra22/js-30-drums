@@ -17,16 +17,26 @@ margin-top: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 8%;
-    margin: 0 5px;
-    padding: 5px 0px;
-    border: thick solid #ffffff;
+    width: 3%;
+    height: 55px;
+    margin: 0 15px;
+    padding: 5px 5px;
+    border: 3px solid #ffffff;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    transition: all .07s;
     color: #ffffff;
     background-color: #0000005a;
 }
 kbd{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
+    padding-bottom: 2px;
+}
+.playing{
+    transform: scale(1.2);
+    border-color: #00ffff;
+    box-shadow: 0 0 5px #00ffff;
+    color: #00ffff;
 }
